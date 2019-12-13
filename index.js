@@ -27,5 +27,5 @@ function fetchSpecifiedDrivers(drivers, fn) {
 }
 
 function selectDifferentDrivers(arrayOfDrivers, fn) {
-  return returnFirstTwoDrivers(arrayOfDrivers);
+  return fn(arrayOfDrivers);
 }
